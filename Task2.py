@@ -145,9 +145,9 @@ with open ("OIB1.2.txt", "r", encoding="utf-8") as file:
     text = text.replace("γ", "Й")
     dict["γ"] = "Й"
 
-    text = text.replace("Щ", "Δ")
-    text = text.replace("1", "Щ")
-    dict["1"] = "Щ"
+    
+
+    
     
     print(text)
     #print(dict)
